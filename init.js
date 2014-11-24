@@ -15,7 +15,7 @@
             }
         });
 
-        $('#Gallery1').click(function () {
+        $('#Gallery1').click(function (e) {
             $('#bs0').remove();
             $(document.body).append('<div id="bs0" class="backslider" style="z-index:-1;"></div>');
             $('#bs0').backslider({
@@ -30,6 +30,7 @@
                     album: '112973260543911044435'
                 }
             });
+            e.preventDefault();
 
         });
         $('#Gallery2').click(function () {
