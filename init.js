@@ -11,45 +11,10 @@
             timer: 10000,
             picasaQuery: {
                 user: '112973260543911044435',
-                album: '6014979933820203569'
+                album: '6128289368130509569'
             }
         });
-
-        $('#Gallery1').click(function (e) {
-            $('#bs0').remove();
-            $(document.body).append('<div id="bs0" class="backslider" style="z-index:-1;"></div>');
-            $('#bs0').backslider({
-                mode: 'timer',
-                effect: 'slidefade',
-                effectTime: 3000,
-                photoSource: 'picasa',
-                centerImages: true,
-                timer: 10000,
-                picasaQuery: {
-                    user: '112973260543911044435',
-                    album: '6082964883946036545'
-                }
-            });
-            e.preventDefault();
-
-        });
-        $('#Gallery2').click(function () {
-            $('#bs0').remove();
-            $(document.body).append('<div id="bs0" class="backslider" style="z-index:-1;"></div>');
-            $('#bs0').backslider({
-                mode: 'timer',
-                effect: 'slidefade',
-                effectTime: 3000,
-                photoSource: 'picasa',
-                centerImages: true,
-                timer: 10000,
-                picasaQuery: {
-                    user: '112973260543911044435',
-                    album: '6027003481855779489'
-                }
-            });
-
-        });
+        
 
         addEventListener("click", function () {
             var
